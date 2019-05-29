@@ -7,14 +7,19 @@ forge "https://forgeapi.puppetlabs.com"
 mod 'puppetlabs-stdlib'
 
 # A module from git
-mod 'puppetlabs-ntp',
-  :git => 'git://github.com/puppetlabs/puppetlabs-ntp.git'
+#mod 'puppetlabs-ntp',
+#  :git => 'git@github.com:puppetlabs/puppetlabs-ntp.git'
 
 # A module from a git branch/tag
-mod 'puppetlabs-apt',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-  :ref => '1.4.x'
+#mod 'puppetlabs-apt',
+#  :git => 'git@github.com:puppetlabs/puppetlabs-apt.git',
+#  :ref => '1.4.x'
 
 mod 'testrepo',
-  :git => 'https://github.com/datadiskpfv/testrepo.git',
+  :git => 'git@github.com:datadiskpfv/testrepo.git',
   :branch => 'master'
+
+mod 'puppetlabs-apache', '1.11.0'
+mod 'puppetlabs-mysql', '3.10.0'
+mod 'mayflower-php', '4.0.0-beta1'
+mod 'puppetlabs-concat'
