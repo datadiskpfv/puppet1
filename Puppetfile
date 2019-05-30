@@ -18,3 +18,7 @@ mod 'puppetlabs-apt',
 mod 'testrepo',
   :git => 'git@github.com:datadiskpfv/testrepo.git',
   :branch => 'master'
+
+mod 'apache',
+  :git => 'git@github.com:datadiskpfv/apache.git',
+  :branch => 'master'
