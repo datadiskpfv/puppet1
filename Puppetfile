@@ -8,7 +8,7 @@ mod 'puppetlabs-stdlib'
 
 # A module from git
 mod 'puppetlabs-ntp',
-  :git => 'git://github.com/puppetlabs/puppetlabs-ntp.git'
+  :git => 'git@github.com:puppetlabs/puppetlabs-ntp.git'
 
 # A module from a git branch/tag
 mod 'puppetlabs-apt',
